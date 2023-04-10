@@ -1,12 +1,10 @@
-﻿#define SDL_MAIN_HANDLED
-
-#include <SDL.h>
-#include <Windows.h>
+﻿#include <Windows.h>
 #include "../ScreenInfo.h"
+#include "SetupSDL.h"
 
 SDL_Window *window;
 SDL_Renderer *renderer;
-bool done;
+bool done = false;
 
 void InitSDL() {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {

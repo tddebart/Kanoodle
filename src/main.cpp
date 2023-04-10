@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "SDL/SetupSDL.cpp"
+#include "SDL/SetupSDL.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
